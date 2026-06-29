@@ -18,9 +18,9 @@
 ![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=flat&logo=anthropic&logoColor=white)
 
 ### 🔭 Featured Projects
-- **[log-analyzer](https://github.com/Romil2112/log-analyzer)** — Python security CLI: brute-force/port-scan detection, Isolation Forest ML anomaly scoring, MITRE ATT&CK mapping, Sigma rule export, and Claude-API incident summaries via a concurrent, cost-instrumented batch layer (~8× throughput). Dockerized, 131 pytest tests in CI.
-- **[SOC-Dashboard](https://github.com/Romil2112/SOC-Dashboard)** — Full-stack SOC analytics: Flask REST API + PostgreSQL + Chart.js surfacing KPIs (MTTR, SLA breach rate, escalation rate), fed by a companion log-analyzer alert-ingestion pipeline.
-- **[Face-Tracking-System](https://github.com/Romil2112/Face-Tracking-System)** — Fault-tolerant real-time computer-vision service: hybrid ResNet-SSD + Haar Cascade detector with CUDA acceleration, circuit-breaker recovery, and adaptive frame-skipping. Shipped as a containerized FastAPI microservice + headless CLI, 42 pytest tests in CI (Python 3.10–3.12).
+- **[log-analyzer](https://github.com/Romil2112/log-analyzer)** — Python security CLI: brute-force/port-scan detection, Isolation Forest ML anomaly scoring, MITRE ATT&CK mapping, and detection-as-code that compiles to **native Splunk SPL / Elastic ES|QL / Sentinel KQL** via real pySigma backends — plus Claude-API incident summaries through a concurrent, cost-instrumented batch layer (~8× throughput). Dockerized, 136 pytest tests in CI.
+- **[SOC-Dashboard](https://github.com/Romil2112/SOC-Dashboard)** — Full-stack SOC analytics: Flask REST API + PostgreSQL + Chart.js surfacing KPIs (MTTR, SLA breach rate, escalation rate) with **interactive severity/source/assignee filters** and a detection-source dimension, fed by a companion log-analyzer alert-ingestion pipeline.
+- **[Face-Tracking-System](https://github.com/Romil2112/Face-Tracking-System)** — Fault-tolerant real-time computer-vision service: hybrid ResNet-SSD + Haar Cascade detector with **CUDA → OpenCL (T-API) → CPU** acceleration auto-selection, circuit-breaker recovery, and adaptive frame-skipping. Shipped as a containerized FastAPI microservice + headless CLI, 51 pytest tests in CI (Python 3.10–3.12).
 
 ### 📫 Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/romil2112)
