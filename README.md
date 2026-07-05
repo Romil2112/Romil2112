@@ -1,6 +1,23 @@
-I'm Romil Shah. I work as an IT analyst in Secaucus, NJ, writing C# and building SSIS pipelines that move about 8 million rows a day from Sybase and PostgreSQL into AWS RDS for more than 250 Tableau users. Outside of work I build security tooling. Three projects below fit together into a small detection-to-triage setup.
+## Hi, I'm Romil 👋
 
-## Projects
+Software & Security Engineer with 3+ years building Python and C# backends, ETL pipelines, and security tooling on AWS and Azure. I run the Anthropic Claude API in production: concurrent batched calls with token-cost and latency instrumentation. MS Computer Science, Stevens Institute of Technology.
+
+📍 Fremont, CA · 🎯 Open to Software / Backend / Security / Data Engineer roles · 🎓 MS Computer Science (Stevens)
+
+### 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=flat&logo=anthropic&logoColor=white)
+
+### Projects
 
 [log-analyzer](https://github.com/Romil2112/log-analyzer) is a command-line tool that reads SSH `auth.log`, Windows Event Log CSVs, and Apache/Nginx access logs, then flags brute-force attempts, port scans, and web scans and tags each one with its MITRE ATT&CK technique. A rule engine catches the obvious patterns and an Isolation Forest model scores the rest for anomalies. The burst detector started as an O(n²) scan that compared every event against every other event; I rewrote it as a two-pointer sweep over a time-sorted window, and runtime on a 50k-line log dropped from 53 seconds to 0.8. It has 193 tests at 91% line coverage and can compile its detections to Splunk SPL, Elastic ES|QL, or Sentinel KQL.
 
@@ -10,11 +27,11 @@ I'm Romil Shah. I work as an IT analyst in Secaucus, NJ, writing C# and building
 
 log-analyzer and SOC-Dashboard are one loop. One detects and sends what it finds over HTTP; the other is where a person triages it. I checked that handoff end to end with 125 pushes, all returning HTTP 201.
 
-## Work
+### Work
 
-I'm an IT analyst at Unique Design Inc. in Secaucus, NJ, working in C# and Bash across UNIX and Windows, with SQL Server, PostgreSQL, and Splunk. Before that I was at Dianco Inc. in NYC, where a Python firewall-log parser I wrote pushed detection time under 5 minutes and an SSIS sync I built cut sync errors by 95%. Full history is on [LinkedIn](https://linkedin.com/in/romil2112).
+I'm an IT Analyst at Unique Design Inc., building SSIS pipelines that move 8M+ rows a day into AWS RDS for 250+ Tableau users, plus Splunk triage. Before that I was at Dianco Inc. in NYC. [Full history on LinkedIn](https://linkedin.com/in/romil2112).
 
-## Skills
+### Skills
 
 Languages: Python, C#, Bash, SQL
 Backend and data: Flask, FastAPI, PostgreSQL, SQL Server, SSIS ETL, psycopg2
@@ -22,6 +39,6 @@ Security: MITRE ATT&CK mapping, Sigma and pySigma, Splunk, Fernet encryption, th
 Machine learning and vision: scikit-learn (Isolation Forest), OpenCV, ResNet-SSD, Haar cascades
 Infrastructure: Docker, GitHub Actions, AWS RDS, Azure IaaS
 
-## Contact
-
-Email: shahromil71321@gmail.com · GitHub: [Romil2112](https://github.com/Romil2112) · LinkedIn: [romil2112](https://linkedin.com/in/romil2112)
+### 📫 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/romil2112)
+[![Resume](https://img.shields.io/badge/%F0%9F%93%84_Resume-PDF-555555?style=flat)](https://github.com/Romil2112/Romil2112/blob/main/Romil_Shah_Resume.pdf)
