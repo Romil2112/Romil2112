@@ -1,6 +1,6 @@
 ## Hi, I'm Romil 👋
 
-Software & Security Engineer with 3+ years building Python and C# backends, ETL pipelines, and security tooling on AWS and Azure. I run the Anthropic Claude API in production: concurrent batched calls with token-cost and latency instrumentation. MS Computer Science, Stevens Institute of Technology.
+Software & Security Engineer with 3+ years building Python and C# backends, ETL pipelines, and security tooling on AWS and Azure. One of my projects integrates the Anthropic Claude API for security incident summaries, with concurrent batched calls and token-cost and latency instrumentation. MS Computer Science, Stevens Institute of Technology.
 
 📍 Fremont, CA · 🎯 Open to Software / Backend / Security / Data Engineer roles · 🎓 MS Computer Science (Stevens)
 
