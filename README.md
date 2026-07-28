@@ -1,6 +1,6 @@
 ## Hi, I'm Romil 👋
 
-Backend engineer building production Python services — an AI-powered log analyzer, SOC dashboard, and computer-vision pipeline — with Claude API and Orkes Conductor orchestration. Open to backend, AI engineering, and security tooling roles.
+Software engineer building production Python services - an AI-powered log analyzer, SOC dashboard, and computer-vision pipeline - with Claude API and Orkes Conductor orchestration. Open to backend, AI engineering, and security tooling roles.
 
 📍 Fremont, CA · 🎓 MS Computer Science, Stevens Institute of Technology
 
