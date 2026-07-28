@@ -29,7 +29,7 @@ log-analyzer and SOC-Dashboard are one loop. One detects and sends what it finds
 
 ### Work
 
-I'm an IT Analyst at Unique Design Inc., building SSIS pipelines that move 8M+ rows a day into AWS RDS for 250+ Tableau users, plus Splunk triage. Before that I was at Dianco Inc. in NYC. [Full history on LinkedIn](https://linkedin.com/in/romil2112).
+I was a Software Developer at Unique Design Inc. (Apr 2025 - Jul 2026), building SSIS pipelines that move 8M+ rows a day into AWS RDS for 250+ Tableau users and writing Splunk triage workflows. Before that I was a Software Engineer at Dianco Inc. in NYC, writing Python automation to parse and correlate firewall logs and building ETL pipelines to sync PostgreSQL e-commerce data into SQL Server. [Full history on LinkedIn](https://linkedin.com/in/romil2112).
 
 ### Skills
 
