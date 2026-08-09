@@ -43,12 +43,13 @@ I was a Software Developer at Unique Design Inc. (Apr 2025 - Jul 2026), building
 
 ### Skills
 
-Languages: Python, Go, C#, Bash, SQL
+Languages: Python, Go, C#, Java, Bash, SQL
 Backend and data: Flask, FastAPI, gRPC, PostgreSQL, Redis, Elasticsearch, Kafka, SQL Server, SSIS ETL, psycopg2, pgvector
-Security: MITRE ATT&CK mapping, Sigma and pySigma, Splunk, Fernet encryption, threat-intel and GeoIP enrichment
-Machine learning and vision: scikit-learn (Isolation Forest), PyTorch, YOLOv8, OpenCV, Haar cascades
+LLM & AI: Claude API, Orkes Conductor, agentic tool-use workflows, RAG (fastembed + pgvector), concurrent batched LLM calls, token-cost/p50/p95 instrumentation, prompt engineering
+Security: MITRE ATT&CK mapping, Sigma and pySigma, Splunk/Elastic/Sentinel SIEM, Fernet encryption, HMAC, RBAC, threat-intel and GeoIP enrichment
+Machine learning and vision: scikit-learn (Isolation Forest), PyTorch (autoencoder), YOLOv8, OpenCV, Haar cascades, mediapipe
 Observability: OpenTelemetry (traces + OTLP export), Prometheus, structlog
-Infrastructure: Kubernetes, Terraform, GCP (Cloud Run + Cloud Build), AWS RDS, Azure IaaS, Docker, GitHub Actions
+Infrastructure: Kubernetes, Helm, Terraform, GCP (Cloud Run + Cloud Build + Cloud Storage), AWS (RDS, Lambda), Azure IaaS, Docker, GitHub Actions
 
 ### 📫 Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/romil2112)
